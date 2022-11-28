@@ -1,0 +1,5 @@
+<launch>
+<node pkg="test" name="retorno" type="retorno" output="screen"/>
+<node pkg="test" name="trayectoria" type="trayectoria"/>
+<node pkg="test" name="reloj" type="reloj" output="screen"/>
+</launch>
